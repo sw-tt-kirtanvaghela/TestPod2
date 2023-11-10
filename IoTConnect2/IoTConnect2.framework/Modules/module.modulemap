@@ -1,0 +1,11 @@
+framework module IoTConnect2 {
+  umbrella header "IoTConnect2.h"
+  export *
+
+  module * { export * }
+}
+
+module IoTConnect2.Swift {
+  header "IoTConnect2-Swift.h"
+  requires objc
+}

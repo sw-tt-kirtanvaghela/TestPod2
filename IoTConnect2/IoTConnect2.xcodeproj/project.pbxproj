@@ -43,7 +43,6 @@
 		DD560A222AFE327F007E67FF /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5609F62AFE327F007E67FF /* HTTPService.swift */; };
 		DD560A232AFE327F007E67FF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5609F82AFE327F007E67FF /* Date+Extension.swift */; };
 		DD560A242AFE327F007E67FF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5609F92AFE327F007E67FF /* Extension.swift */; };
-		DD560A252AFE327F007E67FF /* IoTConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5609FA2AFE327F007E67FF /* IoTConnect.h */; };
 		DD560A262AFE327F007E67FF /* IoTConnect_2_0.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5609FB2AFE327F007E67FF /* IoTConnect_2_0.h */; };
 		DD560A272AFE327F007E67FF /* SDKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5609FC2AFE327F007E67FF /* SDKClient.swift */; };
 		DD560A292AFE327F007E67FF /* IoTConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5609FF2AFE327F007E67FF /* IoTConnectManager.swift */; };
@@ -92,10 +91,8 @@
 		DD5609F62AFE327F007E67FF /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
 		DD5609F82AFE327F007E67FF /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		DD5609F92AFE327F007E67FF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		DD5609FA2AFE327F007E67FF /* IoTConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTConnect.h; sourceTree = "<group>"; };
 		DD5609FB2AFE327F007E67FF /* IoTConnect_2_0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTConnect_2_0.h; sourceTree = "<group>"; };
 		DD5609FC2AFE327F007E67FF /* SDKClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKClient.swift; sourceTree = "<group>"; };
-		DD5609FD2AFE327F007E67FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD5609FF2AFE327F007E67FF /* IoTConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IoTConnectManager.swift; sourceTree = "<group>"; };
 		DD560A002AFE327F007E67FF /* IoTConnectService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IoTConnectService.swift; sourceTree = "<group>"; };
 		DD560A012AFE327F007E67FF /* IoTConnectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IoTConnectDelegate.swift; sourceTree = "<group>"; };
@@ -176,10 +173,8 @@
 				DD5609E82AFE327F007E67FF /* Storage */,
 				DD5609EE2AFE327F007E67FF /* MQTTClient.swift */,
 				DD5609EF2AFE327F007E67FF /* common */,
-				DD5609FA2AFE327F007E67FF /* IoTConnect.h */,
 				DD5609FB2AFE327F007E67FF /* IoTConnect_2_0.h */,
 				DD5609FC2AFE327F007E67FF /* SDKClient.swift */,
-				DD5609FD2AFE327F007E67FF /* Info.plist */,
 				DD5609FE2AFE327F007E67FF /* IoTConnectManager */,
 				DD560A022AFE327F007E67FF /* ErrosLog.swift */,
 			);
@@ -295,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD560A262AFE327F007E67FF /* IoTConnect_2_0.h in Headers */,
-				DD560A252AFE327F007E67FF /* IoTConnect.h in Headers */,
 				DD5609C92AFE2D39007E67FF /* IoTConnect2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "IoTConnect2"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0"
   spec.summary      = "Version 2 for ioTConnectSDk"
 
 
@@ -35,7 +35,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/sw-tt-kirtanvaghela/TestPod2.git", :tag => "1.0" }
 
 
-  # spec.source_files  = "IoTConnect2/**/*."
+   spec.source_files  = "IoTConnect2/**/*"
    spec.swift_version = "5.0"
    spec.dependency "CocoaMQTT"
 

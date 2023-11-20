@@ -161,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				DD5609C82AFE2D39007E67FF /* IoTConnect2.h */,
+				DDFC634F2B0B395A00EF36FA /* Frameworks */,
 				DD5609CF2AFE327F007E67FF /* IoTConnect_2.0 */,
 			);
 			path = IoTConnect2;
@@ -169,7 +170,6 @@
 		DD5609CF2AFE327F007E67FF /* IoTConnect_2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				DDFC634F2B0B395A00EF36FA /* Frameworks */,
 				DD5609D02AFE327F007E67FF /* OtherFramwork */,
 				DD5609D32AFE327F007E67FF /* MqttClient */,
 				DD5609D82AFE327F007E67FF /* Config.swift */,

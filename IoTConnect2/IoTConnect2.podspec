@@ -34,8 +34,8 @@ Pod::Spec.new do |spec|
   
   # spec.ios.vendored_frameworks = 'IoTConnect2.framework'
   spec.source       = { :git => "https://github.com/sw-tt-kirtanvaghela/TestPod2.git", :tag => "1.0" }
-  spec.ios.vendored_frameworks = "IoTConnect2/Frameworks/IoTConnect2.framework"
-  spec.preserve_path = "IoTConnect2/Frameworks/"
+  spec.ios.vendored_frameworks = "Frameworks/IoTConnect2.framework"
+  # spec.preserve_path = "IoTConnect2/Frameworks/"
 
   
    spec.source_files  = "IoTConnect2/**/*"

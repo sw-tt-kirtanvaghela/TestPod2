@@ -32,12 +32,13 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios, "12.0"
 
   
+
   spec.source       = { :git => "https://github.com/sw-tt-kirtanvaghela/TestPod2.git", :tag => "1.0" }
   spec.ios.vendored_frameworks = "IoTConnect2/IoTConnect2.framework"
   # spec.preserve_path = "IoTConnect2/Frameworks/"
 
   
-   spec.source_files  = "IoTConnect2/**/*"
+  # spec.source_files  = "IoTConnect2/**/*"
    spec.swift_version = "5.0"
    spec.dependency "CocoaMQTT"
 

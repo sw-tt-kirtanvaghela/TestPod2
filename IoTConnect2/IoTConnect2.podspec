@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   # spec.preserve_path = "IoTConnect2/Frameworks/"
 
   
-  # spec.source_files  = "IoTConnect2/**/*"
+   spec.source_files  = "IoTConnect2/**/*"
    spec.swift_version = "5.0"
    spec.dependency "CocoaMQTT"
 

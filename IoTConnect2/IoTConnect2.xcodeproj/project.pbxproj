@@ -49,22 +49,7 @@
 		DD560A2B2AFE327F007E67FF /* IoTConnectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A012AFE327F007E67FF /* IoTConnectDelegate.swift */; };
 		DD560A2C2AFE327F007E67FF /* ErrosLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A022AFE327F007E67FF /* ErrosLog.swift */; };
 		DDFC63602B0B98D400EF36FA /* Pods_IoTConnect2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */; };
-		DDFC63612B0B98D400EF36FA /* Pods_IoTConnect2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DDFC635F2B0B980C00EF36FA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DDFC63612B0B98D400EF36FA /* Pods_IoTConnect2.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTConnect2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -314,7 +299,6 @@
 				DD5609C22AFE2D39007E67FF /* Frameworks */,
 				DD5609C32AFE2D39007E67FF /* Resources */,
 				DD560A342AFE3714007E67FF /* ShellScript */,
-				DDFC635F2B0B980C00EF36FA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

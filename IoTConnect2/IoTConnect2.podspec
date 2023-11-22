@@ -32,9 +32,9 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios, "12.0"
 
 
-  spec.source       = { :http => 'https://dl.dropboxusercontent.com/scl/fi/gu4vw2z5mrjzsfy2kt09n/IoTConnect2Framework.zip?rlkey=ra8w5urr8n8g8gj5k124s28e8&dl=0'}
+  spec.source       = { :http => 'https://dl.dropboxusercontent.com/scl/fi/luzvto6ymkba1d3379nau/IoTConnect2Framework.zip?rlkey=1egc6cvlyi0bvywn6qu95qijb&dl=0'}
  # { :git => "https://github.com/sw-tt-kirtanvaghela/TestPod2.git", :tag # => "1.0" }
-  spec.ios.vendored_frameworks = "IoTConnect2.framework"
+  spec.ios.vendored_frameworks = "IoTConnect2.xcframework"
   # spec.preserve_path = "IoTConnect2/Frameworks/"
 
   

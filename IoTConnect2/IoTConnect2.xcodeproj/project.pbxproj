@@ -48,8 +48,24 @@
 		DD560A2A2AFE327F007E67FF /* IoTConnectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A002AFE327F007E67FF /* IoTConnectService.swift */; };
 		DD560A2B2AFE327F007E67FF /* IoTConnectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A012AFE327F007E67FF /* IoTConnectDelegate.swift */; };
 		DD560A2C2AFE327F007E67FF /* ErrosLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A022AFE327F007E67FF /* ErrosLog.swift */; };
-		DDFC63602B0B98D400EF36FA /* Pods_IoTConnect2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */; };
+		DDFC63912B0DDBEF00EF36FA /* Pods_IoTConnect2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDFC63962B0DDD0D00EF36FA /* Pods_IoTConnect2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC63952B0DDD0D00EF36FA /* Pods_IoTConnect2.framework */; };
+		DDFC639F2B0DE69900EF36FA /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC639E2B0DE69900EF36FA /* CocoaMQTT.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDFC638F2B0DDB5800EF36FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DDFC63912B0DDBEF00EF36FA /* Pods_IoTConnect2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTConnect2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +112,13 @@
 		DD560A012AFE327F007E67FF /* IoTConnectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IoTConnectDelegate.swift; sourceTree = "<group>"; };
 		DD560A022AFE327F007E67FF /* ErrosLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrosLog.swift; sourceTree = "<group>"; };
 		DD5FF726633E9928781CC1C3 /* Pods-IoTConnect2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTConnect2.release.xcconfig"; path = "Target Support Files/Pods-IoTConnect2/Pods-IoTConnect2.release.xcconfig"; sourceTree = "<group>"; };
+		DDFC63892B0DDB5800EF36FA /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC638A2B0DDB5800EF36FA /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC63922B0DDCFB00EF36FA /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC63952B0DDD0D00EF36FA /* Pods_IoTConnect2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_IoTConnect2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC63982B0DDD3E00EF36FA /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC63992B0DDD3E00EF36FA /* MqttCocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MqttCocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC639E2B0DE69900EF36FA /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48217A0DC053D0EDC269311 /* Pods-IoTConnect2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTConnect2.debug.xcconfig"; path = "Target Support Files/Pods-IoTConnect2/Pods-IoTConnect2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +127,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFC63602B0B98D400EF36FA /* Pods_IoTConnect2.framework in Frameworks */,
+				DDFC639F2B0DE69900EF36FA /* CocoaMQTT.framework in Frameworks */,
+				DDFC63962B0DDD0D00EF36FA /* Pods_IoTConnect2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +147,13 @@
 		5BC120F44E41CA149FF70953 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDFC639E2B0DE69900EF36FA /* CocoaMQTT.framework */,
+				DDFC63982B0DDD3E00EF36FA /* CocoaMQTT.framework */,
+				DDFC63992B0DDD3E00EF36FA /* MqttCocoaAsyncSocket.framework */,
+				DDFC63952B0DDD0D00EF36FA /* Pods_IoTConnect2.framework */,
+				DDFC63922B0DDCFB00EF36FA /* CocoaMQTT.framework */,
+				DDFC63892B0DDB5800EF36FA /* CocoaMQTT.framework */,
+				DDFC638A2B0DDB5800EF36FA /* MqttCocoaAsyncSocket.framework */,
 				42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */,
 			);
 			name = Frameworks;
@@ -299,6 +330,7 @@
 				DD5609C22AFE2D39007E67FF /* Frameworks */,
 				DD5609C32AFE2D39007E67FF /* Resources */,
 				DD560A342AFE3714007E67FF /* ShellScript */,
+				DDFC638F2B0DDB5800EF36FA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

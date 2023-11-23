@@ -50,7 +50,6 @@
 		DD560A2C2AFE327F007E67FF /* ErrosLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD560A022AFE327F007E67FF /* ErrosLog.swift */; };
 		DDFC63912B0DDBEF00EF36FA /* Pods_IoTConnect2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42AA5812BD04FE280F7EAEA2 /* Pods_IoTConnect2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDFC63962B0DDD0D00EF36FA /* Pods_IoTConnect2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC63952B0DDD0D00EF36FA /* Pods_IoTConnect2.framework */; };
-		DDFC639F2B0DE69900EF36FA /* CocoaMQTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC639E2B0DE69900EF36FA /* CocoaMQTT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFC639F2B0DE69900EF36FA /* CocoaMQTT.framework in Frameworks */,
 				DDFC63962B0DDD0D00EF36FA /* Pods_IoTConnect2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
